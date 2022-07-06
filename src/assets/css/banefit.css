@@ -1,0 +1,51 @@
+.banefit-warper{
+    min-height: 500px;
+    margin-top: 100px;
+    background: rgba(0, 117, 255, 0.06);
+}
+.benefit-heading{
+    height: 41px;
+    width: 333px;
+    border-radius: nullpx;
+
+}
+.benefit-heading::before{
+    content: "About us";
+    color: #0075FF;
+    display: block;
+    font-size: 15px;
+}
+.benefit-li{
+    display: flex;
+    flex-direction: column;
+}
+.banefit-img{
+    position: relative;
+    margin-top: 50px;
+ 
+}
+.banefit-img .banefit-main-img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.banefit-img .banefit-left{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    z-index: -1;
+}
+.banefit-img .banefit-right{
+    position: absolute;
+    top: 10px;
+    right: -40px;
+    z-index: -1;
+}
+.benefit-btn{
+    height: 45px;
+    width: 176px;
+    border-radius: 5px;
+    background-color: #0075FF;
+    color: #ffff;
+    margin-top: 20px;
+}

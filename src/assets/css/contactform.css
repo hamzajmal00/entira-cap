@@ -1,0 +1,23 @@
+.contact-sectoin{
+    margin-top: 100px;
+    min-height: 500px;
+}
+.contact-form{
+    background: #FBFBFB;
+}
+.contact-heading{
+    margin-top: 50px;
+    height: 41px;
+    width: 333px;
+    border-radius: nullpx;
+
+}
+.contact-heading::before{
+    content: "About us";
+    color: #0075FF;
+    display: block;
+    font-size: 15px;
+}
+.form-clas{
+    display: flex;
+}
